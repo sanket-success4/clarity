@@ -43,3 +43,5 @@ export * from './utils/events.js';
 export * from './utils/event-subject.js';
 export * from './interfaces/index.js';
 export { styles as baseStyles } from './base/base.element.css.js';
+
+window.CDS.environment = {production:false};
